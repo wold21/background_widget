@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "Sticker.py", line 83, in <module>
+    s = Sticker('gif/giphy.gif', xy=[1780, 200], size=0.3, on_top=False)
+  File "Sticker.py", line 18, in __init__
+    self.setupUi()
+  File "Sticker.py", line 64, in setupUi
+    movie = QMovie(self.img_path)
+AttributeError: 'Sticker' object has no attribute 'img_path'
+Traceback (most recent call last):
+  File "Sticker.py", line 83, in <module>
+    s = Sticker('gif/giphy.gif', xy=[1780, 200], size=0.3, on_top=False)
+  File "Sticker.py", line 18, in __init__
+    self.setupUi()
+  File "Sticker.py", line 64, in setupUi
+    movie = QMovie(self.img_path)
+AttributeError: 'Sticker' object has no attribute 'img_path'
+Traceback (most recent call last):
+  File "Sticker.py", line 31, in __walkHandler
+    def __walkHandler(self):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "Sticker.py", line 31, in __walkHandler
+    def __walkHandler(self):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "Sticker.py", line 31, in __walkHandler
+    def __walkHandler(self):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "Sticker.py", line 31, in __walkHandler
+    def __walkHandler(self):
+KeyboardInterrupt

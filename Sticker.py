@@ -81,19 +81,19 @@ class Sticker(QtWidgets.QMainWindow):
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
 
-    s = Sticker('gif/giphy.gif', xy=[1780, 200], size=0.3, on_top=True)
+    s = Sticker('gif/giphy.gif', xy=[1780, 200], size=0.3, on_top=False)
     s.walk(from_xy=[1780, 200], to_xy=[1780, 220], speed=12)
 
     # s1 = Sticker('gif/giphy (1).gif', xy=[1000, 500], size=0.3, on_top=True)
 
-    s2 = Sticker('gif/giphy (2).gif', xy=[1700, 1000], size=0.5, on_top=True)
+    # s4 = Sticker('gif/giphy (4).gif', xy=[200, 1000], size=0.5, on_top=False)
 
-    s3 = Sticker('gif/giphy (3).gif', xy=[300, 1000], size=0.5, on_top=True)
+    # s3 = Sticker('gif/giphy (3).gif', xy=[300, 1000], size=0.5, on_top=False)
 
-    s4 = Sticker('gif/giphy (4).gif', xy=[200, 1000], size=0.5, on_top=True)
+    s2 = Sticker('gif/giphy (2).gif', xy=[1700, 1000], size=0.5, on_top=False)
 
-    s5 = Sticker('gif/giphy (6).gif', xy=[250, 900], size=0.3, on_top=True)
+    # s5 = Sticker('gif/giphy (6).gif', xy=[250, 900], size=0.3, on_top=False)
 
-    s6 = Sticker('gif/giphy (5).gif', xy=[1710, 980], size=0.2, on_top=True)
+    s6 = Sticker('gif/giphy (5).gif', xy=[1710, 980], size=0.2, on_top=False)
 
     sys.exit(app.exec_())
